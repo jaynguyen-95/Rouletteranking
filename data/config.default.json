@@ -1,0 +1,190 @@
+{
+  "eyebrow": "Vegas Club",
+  "title": "Roulette Tournament",
+  "stage": "qual",
+  "qualIndex": 1,
+  "mode": "standby",
+  "currentSpin": 0,
+  "spinSeq": 0,
+  "session": 0,
+  "lang": "en",
+  "currency": {
+    "symbol": "$",
+    "position": "prefix"
+  },
+  "buyInSymbol": "$",
+  "scaleMode": "auto",
+  "scaleMax": 20000,
+  "qual": {
+    "rounds": 6,
+    "players": 9,
+    "spins": 5,
+    "advance": 9
+  },
+  "final": {
+    "players": 9,
+    "spins": 7,
+    "prizes": 3
+  },
+  "buyIn": {
+    "qual": {
+      "enabled": true,
+      "min": 100,
+      "max": 300,
+      "unit": 100,
+      "rate": 700
+    },
+    "final": {
+      "enabled": true,
+      "min": 100,
+      "max": 300,
+      "unit": 100,
+      "rate": 700
+    }
+  },
+  "minBet": {
+    "qual": {
+      "base": 1000,
+      "spins": []
+    },
+    "final": {
+      "base": 2000,
+      "spins": []
+    }
+  },
+  "rules": {
+    "qual": [
+      {
+        "icon": "credit",
+        "value": "5,000",
+        "label": "Start CRs",
+        "ko": "시작 크레딧",
+        "zh": "起始积分",
+        "ja": "開始クレジット"
+      },
+      {
+        "icon": "wheel",
+        "value": "5",
+        "label": "Spins",
+        "ko": "스핀",
+        "zh": "旋转",
+        "ja": "スピン"
+      },
+      {
+        "icon": "chip",
+        "value": "1,000",
+        "label": "Min bet",
+        "ko": "최소 베팅",
+        "zh": "最低投注",
+        "ja": "最低ベット"
+      },
+      {
+        "icon": "buyin",
+        "value": "$100",
+        "label": "= 700 CRs",
+        "ko": "= 700 크레딧",
+        "zh": "= 700 积分",
+        "ja": "= 700 クレジット"
+      },
+      {
+        "icon": "hand",
+        "value": "1×",
+        "label": "No-bet",
+        "ko": "노벳 찬스",
+        "zh": "免投注",
+        "ja": "ノーベット"
+      }
+    ],
+    "final": [
+      {
+        "icon": "credit",
+        "value": "10,000",
+        "label": "Start CRs",
+        "ko": "시작 크레딧",
+        "zh": "起始积分",
+        "ja": "開始クレジット"
+      },
+      {
+        "icon": "wheel",
+        "value": "7",
+        "label": "Spins",
+        "ko": "스핀",
+        "zh": "旋转",
+        "ja": "スピン"
+      },
+      {
+        "icon": "chip",
+        "value": "2,000",
+        "label": "Min bet",
+        "ko": "최소 베팅",
+        "zh": "最低投注",
+        "ja": "最低ベット"
+      },
+      {
+        "icon": "buyin",
+        "value": "$100",
+        "label": "= 700 CRs",
+        "ko": "= 700 크레딧",
+        "zh": "= 700 积分",
+        "ja": "= 700 クレジット"
+      },
+      {
+        "icon": "hand",
+        "value": "1×",
+        "label": "No-bet",
+        "ko": "노벳 찬스",
+        "zh": "免投注",
+        "ja": "ノーベット"
+      }
+    ]
+  },
+  "effects": {
+    "rowFx": true,
+    "personal": true,
+    "leader": true,
+    "top9": false,
+    "callouts": true,
+    "particles": true,
+    "bgMotion": true,
+    "sound": false,
+    "overlaySec": 3.4,
+    "spinSec": 4
+  },
+  "awardSeq": 0,
+  "prizes": {
+    "title": "",
+    "tiers": [
+      {
+        "key": "champ",
+        "amount": 15000,
+        "type": "Cash",
+        "count": 1
+      },
+      {
+        "key": "ru1",
+        "amount": 5000,
+        "type": "Fortune Credits",
+        "count": 1
+      },
+      {
+        "key": "ru2",
+        "amount": 2000,
+        "type": "Fortune Credits",
+        "count": 1
+      },
+      {
+        "key": "p4",
+        "amount": 1000,
+        "type": "Fortune Credits",
+        "count": 2
+      },
+      {
+        "key": "p5",
+        "amount": 500,
+        "type": "Fortune Credits",
+        "count": 4
+      }
+    ]
+  },
+  "pin": ""
+}

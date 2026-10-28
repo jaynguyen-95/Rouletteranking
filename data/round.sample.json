@@ -1,0 +1,32 @@
+{
+  "players": [
+    {
+      "seat": 1,
+      "member": "100231",
+      "score": 12400,
+      "lang": "en",
+      "langAt": 1792055652689,
+      "title": "Mr.",
+      "name": "Nguyen"
+    },
+    {
+      "seat": 2,
+      "member": "100368",
+      "score": 13100,
+      "lang": "ko",
+      "langAt": 1792055652689,
+      "title": "Mdm.",
+      "name": "Kim"
+    },
+    {
+      "seat": 3,
+      "member": "100505",
+      "score": 11650,
+      "lang": "",
+      "langAt": 0,
+      "title": "Mr.",
+      "name": "Tanaka"
+    }
+  ],
+  "updatedAt": 1792055652689
+}
